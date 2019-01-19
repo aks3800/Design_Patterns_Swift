@@ -11,7 +11,7 @@ import Foundation
 class SRP {
     func main() -> Void {
         let j = Journal()
-        let _ = j.addEntry("This is Sinle Responsiblity")
+        let _ = j.addEntry("This is Single Responsiblity")
         let imp = j.addEntry("Very important Stuff")
         
         print(j)
