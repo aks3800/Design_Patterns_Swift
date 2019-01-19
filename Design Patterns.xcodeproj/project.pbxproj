@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0215F89721F3792C00FED60E /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0215F89621F3792C00FED60E /* main.swift */; };
+		0215F89F21F379EB00FED60E /* SRP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0215F89E21F379EB00FED60E /* SRP.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,7 @@
 /* Begin PBXFileReference section */
 		0215F89321F3792C00FED60E /* Design Patterns */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Design Patterns"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0215F89621F3792C00FED60E /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		0215F89E21F379EB00FED60E /* SRP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SRP.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +59,18 @@
 		0215F89521F3792C00FED60E /* Design Patterns */ = {
 			isa = PBXGroup;
 			children = (
+				0215F89D21F379BB00FED60E /* Single Responsiblity Principle */,
 				0215F89621F3792C00FED60E /* main.swift */,
 			);
 			path = "Design Patterns";
+			sourceTree = "<group>";
+		};
+		0215F89D21F379BB00FED60E /* Single Responsiblity Principle */ = {
+			isa = PBXGroup;
+			children = (
+				0215F89E21F379EB00FED60E /* SRP.swift */,
+			);
+			path = "Single Responsiblity Principle";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -120,6 +131,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0215F89721F3792C00FED60E /* main.swift in Sources */,
+				0215F89F21F379EB00FED60E /* SRP.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
