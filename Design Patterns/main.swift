@@ -11,3 +11,5 @@ import Foundation
 SRP().main()
 print("\n\n========================\n\n")
 OCP().main()
+print("\n\n========================\n\n")
+LSP().main()

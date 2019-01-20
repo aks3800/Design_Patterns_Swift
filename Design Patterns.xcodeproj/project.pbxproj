@@ -10,6 +10,7 @@
 		0215F89721F3792C00FED60E /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0215F89621F3792C00FED60E /* main.swift */; };
 		0215F89F21F379EB00FED60E /* SRP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0215F89E21F379EB00FED60E /* SRP.swift */; };
 		0215F8A221F37E2400FED60E /* OCP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0215F8A121F37E2400FED60E /* OCP.swift */; };
+		0215F8A721F43EC700FED60E /* LSP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0215F8A621F43EC700FED60E /* LSP.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,8 @@
 		0215F8A121F37E2400FED60E /* OCP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OCP.swift; sourceTree = "<group>"; };
 		0215F8A321F382C400FED60E /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		0215F8A421F383D800FED60E /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		0215F8A621F43EC700FED60E /* LSP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LSP.swift; sourceTree = "<group>"; };
+		0215F8A821F43ED600FED60E /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,7 @@
 		0215F89521F3792C00FED60E /* Design Patterns */ = {
 			isa = PBXGroup;
 			children = (
+				0215F8A521F43E7700FED60E /* Liskov Substitution Principle */,
 				0215F8A021F37E0F00FED60E /* Open Closed Principle */,
 				0215F89D21F379BB00FED60E /* Single Responsiblity Principle */,
 				0215F89621F3792C00FED60E /* main.swift */,
@@ -86,6 +90,15 @@
 				0215F8A321F382C400FED60E /* README.md */,
 			);
 			path = "Open Closed Principle";
+			sourceTree = "<group>";
+		};
+		0215F8A521F43E7700FED60E /* Liskov Substitution Principle */ = {
+			isa = PBXGroup;
+			children = (
+				0215F8A621F43EC700FED60E /* LSP.swift */,
+				0215F8A821F43ED600FED60E /* README.md */,
+			);
+			path = "Liskov Substitution Principle";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,6 +161,7 @@
 				0215F8A221F37E2400FED60E /* OCP.swift in Sources */,
 				0215F89721F3792C00FED60E /* main.swift in Sources */,
 				0215F89F21F379EB00FED60E /* SRP.swift in Sources */,
+				0215F8A721F43EC700FED60E /* LSP.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
