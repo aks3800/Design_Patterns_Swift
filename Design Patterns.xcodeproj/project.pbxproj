@@ -12,6 +12,7 @@
 		0215F8A221F37E2400FED60E /* OCP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0215F8A121F37E2400FED60E /* OCP.swift */; };
 		0215F8A721F43EC700FED60E /* LSP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0215F8A621F43EC700FED60E /* LSP.swift */; };
 		02C811AD21F5E8D3000F67F1 /* ISP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C811AC21F5E8D3000F67F1 /* ISP.swift */; };
+		02C811B121F5EE57000F67F1 /* DIP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C811B021F5EE57000F67F1 /* DIP.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -37,6 +38,8 @@
 		0215F8A821F43ED600FED60E /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		02C811AC21F5E8D3000F67F1 /* ISP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ISP.swift; sourceTree = "<group>"; };
 		02C811AE21F5E8E4000F67F1 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		02C811B021F5EE57000F67F1 /* DIP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DIP.swift; sourceTree = "<group>"; };
+		02C811B221F5EE67000F67F1 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +72,7 @@
 		0215F89521F3792C00FED60E /* Design Patterns */ = {
 			isa = PBXGroup;
 			children = (
+				02C811AF21F5EE3F000F67F1 /* Dependency Inversion Principle */,
 				02C811AB21F5E8B5000F67F1 /* Interface Segregation Principle */,
 				0215F8A521F43E7700FED60E /* Liskov Substitution Principle */,
 				0215F8A021F37E0F00FED60E /* Open Closed Principle */,
@@ -112,6 +116,15 @@
 				02C811AE21F5E8E4000F67F1 /* README.md */,
 			);
 			path = "Interface Segregation Principle";
+			sourceTree = "<group>";
+		};
+		02C811AF21F5EE3F000F67F1 /* Dependency Inversion Principle */ = {
+			isa = PBXGroup;
+			children = (
+				02C811B021F5EE57000F67F1 /* DIP.swift */,
+				02C811B221F5EE67000F67F1 /* README.md */,
+			);
+			path = "Dependency Inversion Principle";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -174,6 +187,7 @@
 				0215F8A221F37E2400FED60E /* OCP.swift in Sources */,
 				0215F89721F3792C00FED60E /* main.swift in Sources */,
 				0215F89F21F379EB00FED60E /* SRP.swift in Sources */,
+				02C811B121F5EE57000F67F1 /* DIP.swift in Sources */,
 				02C811AD21F5E8D3000F67F1 /* ISP.swift in Sources */,
 				0215F8A721F43EC700FED60E /* LSP.swift in Sources */,
 			);
