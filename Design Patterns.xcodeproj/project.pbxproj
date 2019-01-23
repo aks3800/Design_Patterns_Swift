@@ -11,6 +11,7 @@
 		0215F89F21F379EB00FED60E /* SRP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0215F89E21F379EB00FED60E /* SRP.swift */; };
 		0215F8A221F37E2400FED60E /* OCP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0215F8A121F37E2400FED60E /* OCP.swift */; };
 		0215F8A721F43EC700FED60E /* LSP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0215F8A621F43EC700FED60E /* LSP.swift */; };
+		02C44C2221F818F30040137C /* Builder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C44C2121F818F30040137C /* Builder.swift */; };
 		02C811AD21F5E8D3000F67F1 /* ISP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C811AC21F5E8D3000F67F1 /* ISP.swift */; };
 		02C811B121F5EE57000F67F1 /* DIP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C811B021F5EE57000F67F1 /* DIP.swift */; };
 /* End PBXBuildFile section */
@@ -36,6 +37,9 @@
 		0215F8A421F383D800FED60E /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		0215F8A621F43EC700FED60E /* LSP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LSP.swift; sourceTree = "<group>"; };
 		0215F8A821F43ED600FED60E /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		02C44C1F21F8166E0040137C /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		02C44C2121F818F30040137C /* Builder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Builder.swift; sourceTree = "<group>"; };
+		02C44C2321F819450040137C /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		02C811AC21F5E8D3000F67F1 /* ISP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ISP.swift; sourceTree = "<group>"; };
 		02C811AE21F5E8E4000F67F1 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		02C811B021F5EE57000F67F1 /* DIP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DIP.swift; sourceTree = "<group>"; };
@@ -72,11 +76,8 @@
 		0215F89521F3792C00FED60E /* Design Patterns */ = {
 			isa = PBXGroup;
 			children = (
-				02C811AF21F5EE3F000F67F1 /* Dependency Inversion Principle */,
-				02C811AB21F5E8B5000F67F1 /* Interface Segregation Principle */,
-				0215F8A521F43E7700FED60E /* Liskov Substitution Principle */,
-				0215F8A021F37E0F00FED60E /* Open Closed Principle */,
-				0215F89D21F379BB00FED60E /* Single Responsiblity Principle */,
+				02C44C1E21F816220040137C /* Builder */,
+				02C44C1D21F816030040137C /* SOLID */,
 				0215F89621F3792C00FED60E /* main.swift */,
 			);
 			path = "Design Patterns";
@@ -107,6 +108,36 @@
 				0215F8A821F43ED600FED60E /* README.md */,
 			);
 			path = "Liskov Substitution Principle";
+			sourceTree = "<group>";
+		};
+		02C44C1D21F816030040137C /* SOLID */ = {
+			isa = PBXGroup;
+			children = (
+				02C811AF21F5EE3F000F67F1 /* Dependency Inversion Principle */,
+				02C811AB21F5E8B5000F67F1 /* Interface Segregation Principle */,
+				0215F8A521F43E7700FED60E /* Liskov Substitution Principle */,
+				0215F8A021F37E0F00FED60E /* Open Closed Principle */,
+				0215F89D21F379BB00FED60E /* Single Responsiblity Principle */,
+			);
+			path = SOLID;
+			sourceTree = "<group>";
+		};
+		02C44C1E21F816220040137C /* Builder */ = {
+			isa = PBXGroup;
+			children = (
+				02C44C2021F818D90040137C /* Builder */,
+				02C44C1F21F8166E0040137C /* README.md */,
+			);
+			path = Builder;
+			sourceTree = "<group>";
+		};
+		02C44C2021F818D90040137C /* Builder */ = {
+			isa = PBXGroup;
+			children = (
+				02C44C2121F818F30040137C /* Builder.swift */,
+				02C44C2321F819450040137C /* README.md */,
+			);
+			path = Builder;
 			sourceTree = "<group>";
 		};
 		02C811AB21F5E8B5000F67F1 /* Interface Segregation Principle */ = {
@@ -186,6 +217,7 @@
 			files = (
 				0215F8A221F37E2400FED60E /* OCP.swift in Sources */,
 				0215F89721F3792C00FED60E /* main.swift in Sources */,
+				02C44C2221F818F30040137C /* Builder.swift in Sources */,
 				0215F89F21F379EB00FED60E /* SRP.swift in Sources */,
 				02C811B121F5EE57000F67F1 /* DIP.swift in Sources */,
 				02C811AD21F5E8D3000F67F1 /* ISP.swift in Sources */,

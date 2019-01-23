@@ -8,6 +8,9 @@
 
 import Foundation
 
+
+print("==========SOLID==================")
+
 SRP().main()
 print("\n\n========================\n\n")
 OCP().main()
@@ -17,3 +20,9 @@ print("\n\n========================\n\n")
 ISP().main()
 print("\n\n========================\n\n")
 DIP().main()
+
+print("\n\n\n\n\n\n\n\n")
+print("==========BUILDER==================")
+print("\n\n\n\n\n\n\n\n")
+
+Builder().main()
