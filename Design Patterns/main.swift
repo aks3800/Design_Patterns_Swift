@@ -8,6 +8,7 @@
 
 import Foundation
 
+
 print("==========SOLID==================")
 
 SRP().main()
