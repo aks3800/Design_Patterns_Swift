@@ -14,6 +14,7 @@
 		02C44C2221F818F30040137C /* Builder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C44C2121F818F30040137C /* Builder.swift */; };
 		02C811AD21F5E8D3000F67F1 /* ISP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C811AC21F5E8D3000F67F1 /* ISP.swift */; };
 		02C811B121F5EE57000F67F1 /* DIP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C811B021F5EE57000F67F1 /* DIP.swift */; };
+		09368995221319A600A48A79 /* FluentBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09368994221319A600A48A79 /* FluentBuilder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -44,6 +45,8 @@
 		02C811AE21F5E8E4000F67F1 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		02C811B021F5EE57000F67F1 /* DIP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DIP.swift; sourceTree = "<group>"; };
 		02C811B221F5EE67000F67F1 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		09368994221319A600A48A79 /* FluentBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FluentBuilder.swift; sourceTree = "<group>"; };
+		09368996221319C000A48A79 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +128,7 @@
 		02C44C1E21F816220040137C /* Builder */ = {
 			isa = PBXGroup;
 			children = (
+				093689932213198C00A48A79 /* Fluent Builder */,
 				02C44C2021F818D90040137C /* Builder */,
 				02C44C1F21F8166E0040137C /* README.md */,
 			);
@@ -156,6 +160,15 @@
 				02C811B221F5EE67000F67F1 /* README.md */,
 			);
 			path = "Dependency Inversion Principle";
+			sourceTree = "<group>";
+		};
+		093689932213198C00A48A79 /* Fluent Builder */ = {
+			isa = PBXGroup;
+			children = (
+				09368994221319A600A48A79 /* FluentBuilder.swift */,
+				09368996221319C000A48A79 /* README.md */,
+			);
+			path = "Fluent Builder";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,6 +233,7 @@
 				02C44C2221F818F30040137C /* Builder.swift in Sources */,
 				0215F89F21F379EB00FED60E /* SRP.swift in Sources */,
 				02C811B121F5EE57000F67F1 /* DIP.swift in Sources */,
+				09368995221319A600A48A79 /* FluentBuilder.swift in Sources */,
 				02C811AD21F5E8D3000F67F1 /* ISP.swift in Sources */,
 				0215F8A721F43EC700FED60E /* LSP.swift in Sources */,
 			);
