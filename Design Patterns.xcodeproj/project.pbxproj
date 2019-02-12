@@ -15,6 +15,7 @@
 		02C811AD21F5E8D3000F67F1 /* ISP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C811AC21F5E8D3000F67F1 /* ISP.swift */; };
 		02C811B121F5EE57000F67F1 /* DIP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C811B021F5EE57000F67F1 /* DIP.swift */; };
 		09368995221319A600A48A79 /* FluentBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09368994221319A600A48A79 /* FluentBuilder.swift */; };
+		0936899922131FCC00A48A79 /* FacetedBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0936899822131FCC00A48A79 /* FacetedBuilder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -47,6 +48,8 @@
 		02C811B221F5EE67000F67F1 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		09368994221319A600A48A79 /* FluentBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FluentBuilder.swift; sourceTree = "<group>"; };
 		09368996221319C000A48A79 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		0936899822131FCC00A48A79 /* FacetedBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacetedBuilder.swift; sourceTree = "<group>"; };
+		0936899A221320C800A48A79 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +131,7 @@
 		02C44C1E21F816220040137C /* Builder */ = {
 			isa = PBXGroup;
 			children = (
+				0936899722131FB600A48A79 /* Faceted Builder */,
 				093689932213198C00A48A79 /* Fluent Builder */,
 				02C44C2021F818D90040137C /* Builder */,
 				02C44C1F21F8166E0040137C /* README.md */,
@@ -169,6 +173,15 @@
 				09368996221319C000A48A79 /* README.md */,
 			);
 			path = "Fluent Builder";
+			sourceTree = "<group>";
+		};
+		0936899722131FB600A48A79 /* Faceted Builder */ = {
+			isa = PBXGroup;
+			children = (
+				0936899822131FCC00A48A79 /* FacetedBuilder.swift */,
+				0936899A221320C800A48A79 /* README.md */,
+			);
+			path = "Faceted Builder";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,6 +248,7 @@
 				02C811B121F5EE57000F67F1 /* DIP.swift in Sources */,
 				09368995221319A600A48A79 /* FluentBuilder.swift in Sources */,
 				02C811AD21F5E8D3000F67F1 /* ISP.swift in Sources */,
+				0936899922131FCC00A48A79 /* FacetedBuilder.swift in Sources */,
 				0215F8A721F43EC700FED60E /* LSP.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

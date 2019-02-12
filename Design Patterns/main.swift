@@ -26,3 +26,5 @@ print("==========BUILDER==================")
 print("\n\n\n\n\n\n\n\n")
 
 Builder().main()
+print("\n\n========================\n\n")
+FacetedBuilder().main()
