@@ -28,3 +28,10 @@ print("\n\n\n\n\n\n\n\n")
 Builder().main()
 print("\n\n========================\n\n")
 FacetedBuilder().main()
+
+
+print("\n\n\n\n\n\n\n\n")
+print("==========FACTORY==================")
+print("\n\n\n\n\n\n\n\n")
+
+Factory().main()
